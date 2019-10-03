@@ -91,4 +91,4 @@ bot.on('message', async message => {
     bot.uId = message.author.id;
 });
 
-bot.login(BOT_TOKEN);
+client.login(process.env.token);
