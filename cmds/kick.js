@@ -9,7 +9,7 @@ module.exports.run = async (bot,message,args) => {
     if(!args[0]) return bot.send("Вы не указали пользователя");
     if(!rUser) return bot.send("Пользователь не найден");
     let embed = new Discord.RichEmbed()
-    .setDescription("Кик")
+    .setDescription("КИКНУТ НАХУЙ")
     .setColor('#e22216')
     .addField("Администратор",message.author.username)
     .addField("Кикнул",`${rUser.user.username}`);
