@@ -7,5 +7,5 @@ module.exports.run = async (bot,message,args) => {
     bot.send(botmessage);
 };
 module.exports.help = {
-    name: "s"
+    name: "sp"
 };
