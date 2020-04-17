@@ -1,7 +1,7 @@
 const Discord = module.require("discord.js");
 const fs = require("fs");
 module.exports.run = async (bot,message,args) => {
-    if(!message.member.hasPermission("MANAGE_MESSAGES")) return message.channel.send("Пошёл нахуй, у тебя нет прав, уебок");
+    if(!message.member.hasPermission("MANAGE_MESSAGES")) return message.channel.send("Свое ебало завали лучше, у тебя нет прав, уебок");
     let rUser = message.guild.member(message.mentions.users.first() || message.guild.members.get(args[0]));
     if(!args[0]) return bot.send("Вы не указали пользователя");
     if(!rUser) return bot.send("Пользователь не найден");
